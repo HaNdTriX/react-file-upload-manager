@@ -1,0 +1,26 @@
+{
+  "name": "react-file-upload-manager",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Henrik Wenz <HaNdTriX@gmail.com> (https://github.com/HaNdTriX)",
+  "license": "MIT",
+  "scripts": {
+    "dev-client": "nwb react run example.js",
+    "dev-server": "micro-dev example-server.js --port=3001",
+    "dev": "concurrently \"npm run dev-server\" \"npm run dev-client\""
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "concurrently": "^5.0.0",
+    "micro": "^9.3.4",
+    "micro-dev": "^3.0.0",
+    "micro-upload": "^1.0.1",
+    "nwb": "^0.23.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "peerDependencies": {
+    "axios": "^0.x.x",
+    "react": "^16.x.x"
+  }
+}
